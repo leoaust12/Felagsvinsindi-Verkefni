@@ -3,17 +3,72 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    color: black;
     font-family: "Young Serif", monospace;
+    overflow: hidden;
+    user-select: none;
 }
 
 #Background {
-    
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 .Top {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    border
+    border: 1.5px black solid;
+    background-color: #088617cc;
+    padding: 25px;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#History, #Land, #Rules, #sources, #politics, #Home {
+    transition: all 0.4s;
+    padding: 14px;
+    color: black;
+    font-size: 16px;
+    width: 100%;
+}
+
+#History:hover, #sources:hover, #Rules:hover, #Land:hover, #politics:hover, #Home:hover {
+    border: 1px lightgray solid;
+    background-color: #D5526C;
+    border-radius: 10px;
+    transition: all 0.4s;
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+}
+
+
+.Content {
+    background-color: #000000cc;
+    opacity: 80%;
+    padding: 252px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Content h1 {
+    margin-bottom: 15px;
+    font-size: 60px;
+    color: lawngreen;
+}
+
+#ParaContent {
+    font-size: 20px;
+    text-align: center;
+    color: white;
 }
