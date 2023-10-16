@@ -6,6 +6,7 @@
     font-family: "Young Serif", monospace;
     overflow: hidden;
     user-select: none;
+    color: white;
 }
 
 #Background {
@@ -50,25 +51,6 @@
     font-style: italic;
 }
 
+.IslamStory {
 
-.Content {
-    background-color: #000000cc;
-    opacity: 80%;
-    padding: 40vh;
-    width: 100%;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.Content h1 {
-    margin-bottom: 15px;
-    font-size: 60px;
-    color: lawngreen;
-}
-
-#ParaContent {
-    font-size: 20px;
-    text-align: center;
-    color: white;
 }
