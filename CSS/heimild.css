@@ -50,11 +50,17 @@
     font-style: italic;
 }
 
+#Title {
+    font-size: 60px;
+    text-align: center;
+    font-style: oblique;
+    color: wheat;
+}
+
 #Heimilds {
     display: flex;
     margin-top: 10px;
     flex-direction:  column;
-    border: 2px black solid;
     padding: 10px;
     text-align: center;
     height: 100vh;
@@ -62,34 +68,43 @@
 }
 
 #Heimilds a {
-    color: blue;
+    color: white;
     margin-bottom: 10px;
-    border: 1px solid black;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
     font-size: 20px;
     text-transform: capitalize;
-    transition: all 2s;
+    transition: all 0.4s;
 }
 
 #Heimilds a:hover {
     color: red;
+    border: 1px black solid;
     border-radius: 10px;
     font-size: 24px;
     font-style: italic;
-    transition: all 2s;
+    transition: all 0.4s;
     padding: 20px;
-    background-color: black;
+    background-color: #000000cc;
 }
 
 #Heimilds a em {
     text-decoration: underline;
-    font-weight: bolder;
-    color: black;
-    transition: all 2s;
 }
 
-#Heimilds a em:hover {
-    color: lightblue;
-    transition: all 2s;
+#Heimilds:focus {
+    color: greenyellow;
+    transition: all 20s;
+}
+
+#Video {
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
