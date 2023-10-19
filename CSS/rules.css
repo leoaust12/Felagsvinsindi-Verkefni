@@ -5,13 +5,13 @@
     text-decoration: none;
     font-family: "Young Serif", monospace;
     user-select: none;
-    color: white;
 }
 
 body {
     background-repeat: no-repeat;
     background-image: url("../Images/background_video_none.jpg");
     background-size: cover;
+    color: black;
 }
 
 #Background {
@@ -71,6 +71,42 @@ body {
     font-weight: bold;
 }
 
+#Ramadan, #Eid-ul-Adha, #Eid-ul-Fitr, #Al-Hijra, #Mawlid-an-Nabi {
+    margin-bottom: 10px;
+    border: 1px black solid;
+    text-align: center;
+    font-size: 24px;
+    background-color: #D5526C;
+}
+
+#Ramadan h2, #Eid-ul-Adha h2, #Eid-ul-Fitr h2, #Al-Hijra h2, #Mawlid-an-Nabi h2 {
+    font-size: 30px;
+    color: blue;
+}
+
+.IslamRules {
+    margin: 10px auto 15px;
+}
+
+.IslamRules h1 {
+    text-align: center;
+}
+
+.Holidays {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-right: 250px;
+    align-items: center;
+    border-spacing: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 4px;
+}
+
 .Bottom {
     border: 2px black solid;
     border-top-left-radius: 10px;
@@ -79,10 +115,18 @@ body {
     text-align: center;
     background-color: #3F3F3F;
     color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
 }
 
-.Bottom:hover {
+.Bottom a {
+    color: white;
+    text-decoration: none;
+}
+
+.Bottom a:hover {
+    text-decoration: underline black;
+    font-style: italic;
     transition: all 1s;
-    color: red;
 }
-

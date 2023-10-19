@@ -4,20 +4,17 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: "Young Serif", monospace;
-    overflow: hidden;
     user-select: none;
 }
 
-#Background {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
+body {
+    text-align: justify;
+}
+
+
+h2 {
+    text-align: center;
+    color: #D5526C;
 }
 
 .Top {
@@ -48,4 +45,67 @@
     font-size: 18px;
     color: white;
     font-style: italic;
+}
+
+.General {
+    background-color: #F1C40F;
+    border: 3px black solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+}
+
+.Europe {
+    margin-top: 10px;
+    background-color: #5499C7;
+    border: 3px black solid;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.Africa {
+    margin-top: 10px;
+    background-color: #D89C53;
+    border: 3px black solid;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.Asia {
+    margin-top: 10px;
+    background-color: #7DCEA0;
+    border: 3px black solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+}
+
+.Hate {
+    margin-top: 10px;
+    background-color: #FBEEE6;
+    border: 3px black solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+}
+
+.Hate p {
+    font-size: 25px;
+}
+
+.Hate h2 {
+    font-size: 50px;
+}
+
+li {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#List {
+    list-style-type: square;
+    list-style-position: outside;
+    padding-left: 15px;
 }

@@ -4,20 +4,32 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: "Young Serif", monospace;
-    overflow: hidden;
     user-select: none;
+    color: black;
 }
 
-#Background {
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: -1;
+h1 {
+    text-align: center;
+    margin-bottom: 6px;
+    color: #D5526C;
+}
+
+h1:hover {
+    text-decoration: underline white;
+    font-style: italic;
+    transition: all 1.35s;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px 0;
+    color: #F9E79F;
+}
+
+p {
+    margin-bottom: 4px;
+    font-size: 20px;
+    text-align: justify;
 }
 
 .Top {
@@ -51,5 +63,43 @@
 }
 
 .IslamStory {
+    background-color: #5499C7;
+    border: 3px black solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+}
 
+.WhatisIslam {
+    margin-top: 10px;
+    background-color: #D89C53;
+    border: 3px black solid;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.IslamInIceland {
+    margin-top: 10px;
+    background-color: #7DCEA0;
+    border: 3px black solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+}
+
+#List {
+    list-style-type: square;
+    list-style-position: outside;
+    padding-left: 15px;
+}
+
+li {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+strong {
+    color: darkred;
 }
